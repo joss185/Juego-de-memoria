@@ -1,5 +1,5 @@
 //: Playground - noun: a place where people can play
-
+// Joselyn Rodríguez
 import UIKit
 
 //Juego de memoria
@@ -26,18 +26,12 @@ for i in  0...100{
             
         }
     
-    var index = 30
+
     
     //Números del 30 al 40
-    if(i == index){
-        
-        while index > 29 && index < 41{
-            
-            print("\(index)\tViva Swift")
-            
-            index++
-        }
-        
+    if i > 29 && i < 41 {
+ 
+            print("\(i)\tViva Swift")
     }
     
     
